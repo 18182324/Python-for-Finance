@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from pandas_datareader import data
-start_date = '2001-01-01'
-end_date = '2018-01-01'
+start_date = '2003-01-01'
+end_date = '2021-01-01'
 SRC_DATA_FILENAME='goog_data_large.pkl'
 
 try:

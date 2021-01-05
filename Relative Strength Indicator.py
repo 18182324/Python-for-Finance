@@ -2,8 +2,8 @@ import pandas as pd
 
 from pandas_datareader import data
 
-start_date = '2014-01-01'
-end_date = '2018-01-01'
+start_date = '2015-01-01'
+end_date = '2020-12-31'
 SRC_DATA_FILENAME = 'goog_data.pkl'
 
 try:

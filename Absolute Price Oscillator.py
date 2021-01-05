@@ -22,6 +22,7 @@ The Absolute Price Oscillator (APO) is based
  lengths, a ‘Fast’ and a ‘Slow’ moving average.
 APO = Fast Exponential Moving Average - Slow Exponential Moving Average
 '''
+
 num_periods_fast = 10 # time period for the fast EMA
 K_fast = 2 / (num_periods_fast + 1) # smoothing factor for fast EMA
 ema_fast = 0
